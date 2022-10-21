@@ -39,4 +39,9 @@ public class ClassA {
 
 	}
 	
-}
+	public void division3(int a,int b ) {
+	
+	System.out.println(a/b);
+
+	}
+}	
