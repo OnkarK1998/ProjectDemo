@@ -11,6 +11,8 @@ public class ClassB {
 		obj.getpercentage("Sakshi" , 65f );
 		obj.getpercentage("Pranav", 110f);
 		
+		System.out.println("Pranav is the talented guy");
+		
 	}
      
     public void getpercentage(String Studentname ,  float obtainedmarks) {
@@ -29,4 +31,6 @@ public class ClassB {
         	System.out.println("Student name: " + Studentname2);
         	System.out.println("Got " + finalpercentage);
     	}
+    	 
+    	
 }
