@@ -21,15 +21,12 @@ public class ClassB {
     	System.out.println("Got " + finalpercentage);
     	
     }
-    	 public static void getpercentage2(String Studentname2 ,  float obtainedmarks2) {
+    	 public static void getpercentage2(String Studentname2 ,  float obtainedmarks2)
+    	 {
         	int maxmarks = 150;
         	float percentage= (obtainedmarks2/maxmarks);
         	float finalpercentage = percentage*100;
         	System.out.println("Student name: " + Studentname2);
         	System.out.println("Got " + finalpercentage);
-    	
-    	
-    	
-    	
-    }
+    	}
 }
