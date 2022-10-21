@@ -44,4 +44,7 @@ public class ClassA {
 	System.out.println(a/b);
 
 	}
-}	
+		public void multiplication1(int a,int b) {
+         System.out.println(a*b);
+}
+}
